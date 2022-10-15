@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.app-layout {
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #38ba5b;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #dcdedd;
+}
+
+.navbar-components {
+  display: flex;
+  gap: 5rem;
+}

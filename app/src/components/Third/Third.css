@@ -1,0 +1,19 @@
+.list-status-completed {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  padding: 1px 1rem;
+  font-size: 12px;
+}
+
+.list-status-incompleted {
+  background-color: #b33b32;
+  border-radius: 5px;
+  color: white;
+  padding: 1px 1rem;
+  font-size: 12px;
+}
+
+ul {
+  line-height: 200%;
+}

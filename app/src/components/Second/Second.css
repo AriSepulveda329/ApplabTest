@@ -1,0 +1,14 @@
+.request-button {
+  margin-top: 1rem;
+  align-self: center;
+  background-color: #38ba5b;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -2,8 +2,8 @@ import React, { createContext, useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import First from "./components/First.jsx";
-import Second from "./components/Second";
-import Third from "./components/Third";
+import Second from "./components/Second/Second";
+import Third from "./components/Third/Third";
 import Login from "./components/Login/Login";
 
 export const UserContext = createContext(null);

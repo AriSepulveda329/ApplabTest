@@ -1,11 +1,24 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { UserContext } from "../../App";
 import "./Login.css";
 
 export default function Login() {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
+  const { setUser } = useContext(UserContext);
+  const navigate = useNavigate();
 
-  const onSubmit = () => {};
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (userName === "usuario" && password === "1234") {
+      setUser(userName);
+      alert("Bienvenido!");
+      navigate("/", { replace: true });
+    } else {
+      alert("Nombre de usuario y/o contraseña incorrecta");
+    }
+  };
 
   return (
     <div className="login-layout">
